@@ -1,8 +1,8 @@
 {
-    "coin": "dashcoin",
-    "symbol": "DSH",
-    "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 120,
+    "coin": "charnacoin",
+    "symbol": "nac",
+    "coinUnits": 100000000,
+    "coinDifficultyTarget": 60,
 
     "logging": {
         "files": {
@@ -19,27 +19,27 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4NWHJ6Ravv93v4BaE",
+        "poolAddress": "CpU4TUAvytF36PeVy6wM9rWbxxTDW4GnDRxcZcEXCwLEdeD3yLPTxEXWBYHsJB3P51LxbGyrbVDdAe2ZUutkFkvb65jakQG",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {
-                "port": 3333,
+                "port": 18805,
                 "difficulty": 100,
                 "desc": "Low end hardware"
             },
             {
-                "port": 5555,
+                "port": 18805,
                 "difficulty": 2000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 7777,
+                "port": 18805,
                 "difficulty": 10000,
                 "desc": "High end hardware"
             },
             {
-                "port": 8888,
+                "port": 18805,
                 "difficulty": 10000,
                 "desc": "Hidden port",
                 "hidden": true
@@ -102,20 +102,20 @@
         "enabled": true,
         "hashrateWindow": 600,
         "updateInterval": 5,
-        "port": 8117,
+        "port": 8805,
         "blocks": 30,
         "payments": 30,
         "password": "your_password"
     },
 
     "daemon": {
-        "host": "127.0.0.1",
-        "port": 42081
+        "host": "107.172.253.245",
+        "port": 18805
     },
 
     "wallet": {
-        "host": "127.0.0.1",
-        "port": 8082
+        "host": "107.172.253.245",
+        "port": 18804
     },
 
     "redis": {
