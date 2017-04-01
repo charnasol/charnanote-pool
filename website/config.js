@@ -1,14 +1,14 @@
-var api = "http://poolhost.com:1117";
+var api = "http://107.172.253.245:8805";
 
-var api_blockexplorer = "http://daemonhost.com:1118";
+var api_blockexplorer = "http://107.172.253.245:18805";
 
-var poolHost = "poolhost.com";
+var poolHost = "charnacoin.com";
 
-var irc = "irc.freenode.net/#poolhost";
+var irc = "irc.freenode.net/#charnacoin";
 
-var email = "support@poolhost.com";
+var email = "support@charnacoin.com";
 
-var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
+var cryptonatorWidget = ["{NAC}-BTC", "{NAC}-USD", "{NAC}-EUR"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
